@@ -5,3 +5,5 @@ My first repository on GitHub
 Для двух человек.
 Размер поля - 3x3.
 Игра выводится в консоль.
+
+Language: Python

@@ -34,7 +34,7 @@ def take_input(player_token):  # ввод X или 0
     while True:
         value = input(f'Укажите номер клетки, куда поставить {player_token}: ')  # выбор номера клетки для X или 0
         # Проверка, что введено число (номер клетки) от 1 до 9, а не что-нибудь другое:
-        if not (value in '123456789') or len(value) > 1:
+        if not (value in '123456789') or len(value) != 1:
             print('Ошибочный ввод. Повторите.')
             continue
         value = int(value)
